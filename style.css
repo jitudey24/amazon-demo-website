@@ -125,5 +125,38 @@ span{
 .hero-section{
     background-image: url("images/hero.jpg");
     height: 400px;
+    background-size: cover;
+}
+/* main section */
+.main-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(154, 73, 230);
+}
 
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+.box-content p:hover{
+    color: #febd68;
 }
